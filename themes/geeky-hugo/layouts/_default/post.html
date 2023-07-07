@@ -1,0 +1,39 @@
+<div class="card">
+  <!-- image path -->
+  {{ $imagePath:= .Params.image }}
+  {{ if $imagePath }}
+  <div class="mb-4 position-relative">
+    {{ partial "image.html" (dict "Src" $imagePath "Alt" .Title "Class" "img-fluid w-100 rounded-4" ) }}
+    <ul class="list-inline card-badge">
+      {{ range .Params.categories }}
+      <li class="list-inline-item">
+        <a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}/" class="badge badge-primary py-1">{{. | title}}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ else }}
+  <div class="mb-4">
+    {{ range .Params.categories }}
+    <a href="{{`categories/` | relLangURL}}{{. | lower | urlize}}/" class="badge badge-primary d-inline-block">{{. | title}}</a>
+    {{ end }}
+  </div>
+  {{ end }}
+  <div class="card-body">
+    <h3 class="h6">
+      <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
+    </h3>
+    <ul class="list-inline card-meta d-flex align-items-center mb-3">
+      <li class="list-inline-item d-flex align-items-center">
+        <i class="fas fa-user me-2"></i>
+        <a href="{{`about` | relLangURL}}/">{{site.Params.author}}</a>
+      </li>
+      <li class="list-inline-item d-flex align-items-center">
+        <i class="fas fa-calendar me-2"></i>
+        <span>{{ time.Format ":date_long" .PublishDate }}</span>
+      </li>
+    </ul>
+    <p class="card-text mb-4">{{ .Summary }}</p>
+    <a href="{{.RelPermalink}}" class="btn btn-outline-primary btn-sm">{{ site.Params.read_more_button }}</a>
+  </div>
+</div>
