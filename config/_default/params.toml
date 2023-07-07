@@ -1,0 +1,132 @@
+#################### default parameters ################################
+# favicon
+favicon = "images/favicon-DA.png"
+# logo
+logo = "images/logo-DA.gif"
+# use `x` with logo_width, example: "100x".
+# Note: logo_width is not work with .svg file
+logo_width = "150x"
+# logo text will only show when logo is missing.
+logo_text = "Digital Avenue"
+# navbar fixed to top
+navbar_fixed = false
+# OpenGraph / Twitter Card metadata
+description = "Digital Avenue Carefully Verified DevOps and System Admin Tutorials For Kubernetes, Docker, Jenkins, Azure, AWS, Linux and more. Learn DevOps Now."
+author = "Dimuthu Daundasekara"
+image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
+# contact info
+address = "Digital Avenue IT, 10118, Colombo, Sri Lanka"
+mobile = "+940715776400"
+email = "digitalavenuelk@gmail.com"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# search
+search = true
+
+# Posts related Titles & Contents
+categories_title = "Blog Categories"
+posts_title = "Featured"
+featured_post_title = "Featured Post"
+recent_post_title = "Recent Post"
+featured_post_button = "Featured"
+recent_post_button = "Recent"
+read_more_button = "Read more"
+previous_button = "Previous"
+next_button = "Next"
+related_posts = "Related Posts"
+showing_posts = "Showing Post From"
+no_categories_found = "No Categories Found"
+no_tags_found = "No Tags Found"
+
+mainSections = ["blog"]
+# about widget content
+about_widget_content = "Digital Avenue Carefully Verified DevOps and System Admin Tutorials For Kubernetes, Docker, Jenkins, Azure, AWS, Linux and more. Learn DevOps Now."
+# footer content
+footer_content = "A comprehensive DevOps Blog for IT geeks."
+# custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>" 
+custom_script= ""
+# copyright
+theme_copyright = true
+copyright = "Copyright © 2018-2023 Digital Avenue IT"
+
+# 404
+error_404_text = "404 Page Not Found!"
+error_404_button = "Back To Home"
+
+# Preloader
+[preloader]
+enable = false
+preloader = "" # use jpg, png, svg or gif format.
+
+# Banner
+[banner]
+enable = true
+title_large = "Welcome **!**"
+title_small = "to Digital Avenue DevOps Blog"
+image = "images/banner.png"
+background_image = "/images/banner-bg-shape.svg"
+content = "Digital Avenue Carefully Verified DevOps and System Admin Tutorials For Kubernetes, Docker, Jenkins, Azure, AWS, Linux and more. Learn DevOps Now."
+button_label = "Know About Me"
+button_link = "about/"
+
+# Advertise
+#[advertisement]
+#image = "images/promotion.png"
+#link = "https://gethugothemes.com/"
+
+# Adsense
+google_adsense = "" # example: ca-pub-XXXXXXXXXX
+
+# cookies
+[cookies]
+enable = false
+expire_days = 2
+content = "This site uses cookies. By continuing to use this website, you agree to their use."
+button = "I Accept"
+
+######################## sidebar widgets #########################
+[widgets]
+sidebar = ["about", "categories", "recent-post", "newsletter"]
+# available widget : about,categories,newsletter,recent-post
+
+
+# Subscription
+[subscription]
+enable = false
+newsletter_title = "Newsletter"
+newsletter_invitation = "Join thousands of Tiny Salt subscribers and get our best recipes delivered each week!"
+newsletter_placeholder = "Type And Hit Enter"
+newsletter_reminder_a = "By Singing Up, You Agree To"
+newsletter_reminder_b = "Privacy Policy"
+newsletter_button = "Sign in"
+# mailchimp subsciption
+mailchimp_form_action = "https://gmail.us4.list-manage.com/subscribe/post?u=463ee871f45d2d93748e77cad&amp;id=a0a2c6d074" # replace this url with yours
+mailchimp_form_name = "b_463ee871f45d2d93748e77cad_a0a2c6d074" # replace this code with yours
+
+
+############################# social site ########################
+[[social]]
+title = "facebook"
+icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
+link = "https://www.facebook.com/digitalavenuelk"
+
+[[social]]
+title = "twitter"
+icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[social]]
+title = "instagram"
+icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "#"
+
+[[social]]
+title = "github"
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://github.com/dimuit86"
+
+[[social]]
+title = "linkedin"
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
+link = "https://www.linkedin.com/in/dimuthud"
+
