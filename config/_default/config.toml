@@ -5,11 +5,11 @@ theme = "geeky-hugo"
 languageName = "En"
 languageCode = "en-us"
 # post pagination
-paginate = "6"
+paginate = "8"
 # post excerpt
 summaryLength = "20"
 # google analytics
-googleAnalytics = "" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
+googleAnalytics = "G-JK6MHZTQXW" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
 # disqus short name
 disqusShortname = "https-digitalavenue-dev" # get your shortname form here : https://disqus.com
 # disable language
