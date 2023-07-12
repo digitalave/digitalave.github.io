@@ -20,6 +20,8 @@
   </div>
   {{ end }}
   <div class="card-body">
+    <!-- google tag manager noscript -->
+    {{ partial "gtm-noscript.html" . }}
     <h3 class="h6">
       <a class="title-linked" href="{{.RelPermalink}}">{{.Title | markdownify}}</a>
     </h3>

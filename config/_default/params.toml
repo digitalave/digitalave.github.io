@@ -10,7 +10,10 @@ logo_width = "150x"
 logo_text = "Digital Avenue"
 # navbar fixed to top
 navbar_fixed = false
+
 # OpenGraph / Twitter Card metadata
+[metadata]
+keywords = ["DevOps", "Tutorial", "IT", "Kubernete", "Azure", "Amazon", "Jenkins", "Docker", "HowTo", "DevOps Tutorials"]
 description = "Digital Avenue Carefully Verified DevOps and System Admin Tutorials For Kubernetes, Docker, Jenkins, Azure, AWS, Linux and more. Learn DevOps Now."
 author = "Dimuthu Daundasekara"
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
@@ -19,7 +22,7 @@ address = "Digital Avenue IT, 10118, Colombo, Sri Lanka"
 mobile = "+940715776400"
 email = "digitalavenuelk@gmail.com"
 # contact form action
-contact_form_action = "#" # contact form works with https://formspree.io
+contact_form_action = "mrgonyll" # contact form works with https://formspree.io
 # search
 search = true
 
@@ -77,6 +80,17 @@ button_link = "about/"
 # Adsense
 google_adsense = "" # example: ca-pub-XXXXXXXXXX
 
+# google tag manager, see https://developers.google.com/tag-manager/
+google_tag_manager = "G-JK6MHZTQXW" # example: G-XXXXXXXXXX
+
+# site verifications
+[site_verification]
+google = ""   # Your verification code
+bing = ""     # Your verification code
+baidu = ""    # Your verification code
+facebook = "" # Your verification code
+mastodon = "" # Your verification code
+
 # cookies
 [cookies]
 enable = false
@@ -88,7 +102,6 @@ button = "I Accept"
 [widgets]
 sidebar = ["about", "categories", "recent-post", "newsletter"]
 # available widget : about,categories,newsletter,recent-post
-
 
 # Subscription
 [subscription]
