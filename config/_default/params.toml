@@ -78,7 +78,7 @@ button_link = "about/"
 #link = "https://gethugothemes.com/"
 
 # Adsense
-google_adsense = "" # example: ca-pub-XXXXXXXXXX
+google_adsense = "ca-pub-5030502705729212" # example: ca-pub-XXXXXXXXXX
 
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "G-JK6MHZTQXW" # example: G-XXXXXXXXXX

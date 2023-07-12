@@ -8,12 +8,13 @@ languageCode = "en-us"
 paginate = "8"
 # post excerpt
 summaryLength = "20"
+# disqus short name
+# disqusShortname = "https-digitalavenue-dev" # get your shortname form here : https://disqus.com
+# disable language
+# disableLanguages = ["fr"] # example: ["fr"] for disable french language
+
 # google analytics
 googleAnalytics = "G-JK6MHZTQXW" # example: UA-123-45, for more info, read the article https://support.google.com/analytics/answer/1008080?hl=en
-# disqus short name
-disqusShortname = "https-digitalavenue-dev" # get your shortname form here : https://disqus.com
-# disable language
-disableLanguages = ["fr"] # example: ["fr"] for disable french language
 
 ################## DA Custom configuration #######################
 timeZone = "Europe/Vienna"
