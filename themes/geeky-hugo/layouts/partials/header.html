@@ -34,7 +34,7 @@
               {{ $pageURL:= $currentPage.Permalink | absLangURL }}
               {{ $active := eq $menuURL $pageURL }}
               {{ if .HasChildren }}
-              <li class="nav-item dropdown 
+              <li class="nav-item dropdown
               {{ range .Children }}
               {{ $childURL := .URL | absLangURL }}
               {{ $active := eq $childURL $pageURL }}

@@ -77,7 +77,7 @@ button_link = "about/"
 #image = "images/promotion.png"
 #link = "https://gethugothemes.com/"
 
-# Adsense
+# google adsense, see https://www.google.com/adsense/
 google_adsense = "ca-pub-5030502705729212" # example: ca-pub-XXXXXXXXXX
 
 # google tag manager, see https://developers.google.com/tag-manager/
